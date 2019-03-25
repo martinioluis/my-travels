@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Travel from './Travel.js';
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,18 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Travel
+          destination='plop'
+          country='Inde'
+          photo= 'Photo'
+          distance= '5000 bornes'
+        />
+        <Travel
+          destination='plop2'
+          country='Guatemala'
+          photo= 'Photo'
+          distance= '7000 bornes'
+        />
       </div>
     );
   }
